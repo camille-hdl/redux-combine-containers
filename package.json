@@ -1,0 +1,58 @@
+{
+  "name": "redux-combine-containers",
+  "version": "1.0.0",
+  "description": "Helpers to merge multiple redux containers / states into a single immutable state",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "esnext": "./esm/index.js",
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "npm run build",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camille-hdl/redux-combine-containers.git"
+  },
+  "keywords": [
+    "redux",
+    "combine",
+    "immutable",
+    "containers"
+  ],
+  "author": "Camille Hodoul <camille.hodoul@gmail.com> (http://twitter.com/camille_hdl)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/camille-hdl/redux-combine-containers/issues"
+  },
+  "homepage": "https://github.com/camille-hdl/redux-combine-containers#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.46",
+    "@babel/runtime": "^7.0.0-beta.46",
+    "@babel/preset-flow": "^7.0.0-beta.46",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.3",
+    "immutable": "^3.8.2",
+    "jest": "^22.4.3",
+    "rollup-plugin-babel": "^4.0.0-beta.4",
+    "rollup-plugin-replace": "^2.0.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testRegex": "(/__tests__/.*|\\.(test|spec|react-test))\\.(js|jsx)$",
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "globals": {
+      "NODE_ENV": "test"
+    },
+    "testPathIgnorePatterns": [
+      "node_modules"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|my-project|react-native-button)/"
+    ]
+  }
+}

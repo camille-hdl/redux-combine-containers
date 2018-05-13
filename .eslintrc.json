@@ -1,0 +1,40 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:flowtype/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "flowtype", "babel"
+    ],
+    "rules": {
+        "babel/new-cap": 1,
+        "babel/no-invalid-this": 1,
+        "babel/quotes": 1,
+        "babel/semi": 1,
+        "babel/no-unused-expressions": 1,
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

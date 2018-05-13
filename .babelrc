@@ -1,0 +1,25 @@
+{
+    "env": {
+      "production": {
+        "presets": [["@babel/preset-env", {
+          "modules": false,
+          "targets": {
+                "node": "current"
+          }
+        }], "@babel/preset-flow"]
+      },
+      "development": {
+        "presets": [["@babel/preset-env", {
+          "modules": false,
+          "targets": {
+                "node": "current"
+          }
+        }], "@babel/preset-flow"],
+        "plugins": ["@babel/plugin-transform-runtime"]
+      },
+      "test": {
+        "presets": ["@babel/preset-env", "@babel/preset-flow"],
+        "plugins": ["@babel/plugin-transform-runtime"]
+      }
+    }
+  }
