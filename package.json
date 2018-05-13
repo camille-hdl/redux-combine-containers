@@ -6,7 +6,7 @@
   "module": "./esm/index.js",
   "esnext": "./esm/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "prepublishOnly": "npm run build",
     "build": "rollup -c"
   },
