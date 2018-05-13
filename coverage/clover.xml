@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1526249998349" clover="3.2.0">
+  <project timestamp="1526249998349" name="All files">
+    <metrics statements="19" coveredstatements="18" conditionals="6" coveredconditionals="3" methods="9" coveredmethods="9" elements="34" coveredelements="30" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1">
+      <file name="index.js" path="/Users/camille/git/redux-combine-containers/esm/index.js">
+        <metrics statements="19" coveredstatements="18" conditionals="6" coveredconditionals="3" methods="9" coveredmethods="9"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="53" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="76" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="87" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>

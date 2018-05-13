@@ -1,5 +1,5 @@
 # redux-combine-containers 
-[![Build Status](https://travis-ci.org/camille-hdl/redux-combine-containers.svg?branch=master)](https://travis-ci.org/camille-hdl/redux-combine-containers)  
+[![Build Status](https://travis-ci.org/camille-hdl/redux-combine-containers.svg?branch=master)](https://travis-ci.org/camille-hdl/redux-combine-containers) [![Coverage Status](https://coveralls.io/repos/github/camille-hdl/redux-combine-containers/badge.svg?branch=master)](https://coveralls.io/github/camille-hdl/redux-combine-containers?branch=master)
 
 
 ## Why use this package
