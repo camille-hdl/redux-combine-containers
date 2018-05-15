@@ -28,6 +28,8 @@ type Map = {
 
 ## Usage
 
+`npm install --save redux-combine-containers`
+
 Let's say we have 2 react-redux containers, `document-viewer` and `document-list`. These module can be used standalone with their own state, actions and views.  
 We want to create a new `document-index` container, using these two submodules, with a single state tree, without duplicating code.
 

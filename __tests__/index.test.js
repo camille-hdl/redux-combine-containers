@@ -1,7 +1,7 @@
 //@flow
 
 import { fromJS } from "immutable";
-import { getCombinedReducer, getCombinedDispatchToProps, getCombinedStateToProps } from "../esm/index.js";
+import { getCombinedReducer, getCombinedDispatchToProps, getCombinedStateToProps } from "../index.js";
 
 test("getCombinedReducer", () => {
     const reducers = {

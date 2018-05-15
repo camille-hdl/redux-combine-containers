@@ -3,15 +3,18 @@ import replace from "rollup-plugin-replace";
 
 
 export default {
-    input: "./esm/index.js",
+    input: "./index.js",
     output: [
         {
             file: "./cjs/index.js",
             format: "cjs"
+        },{
+            file: "./esm/index.js",
+            format: "es"
         }
     ],
     watch: {
-        include: ["./esm/index.js"]
+        include: ["./index.js"]
     },
     plugins: [
         replace({
